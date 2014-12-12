@@ -11,7 +11,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Analog_QAM.vi" Type="VI" URL="../Analog_QAM.vi"/>
-		<Item Name="Carrier.vi" Type="VI" URL="../Carrier.vi"/>
+		<Item Name="CarrierRx.vi" Type="VI" URL="../CarrierRx.vi"/>
+		<Item Name="CarrierTx.vi" Type="VI" URL="../CarrierTx.vi"/>
+		<Item Name="Filter.vi" Type="VI" URL="../Filter.vi"/>
+		<Item Name="PLL.vi" Type="VI" URL="../PLL.vi"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
